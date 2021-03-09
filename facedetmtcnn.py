@@ -28,7 +28,7 @@ def draw_image_with_boxes(filename, result_list):
             ax.add_patch(dot)
     pyplot.show()
 
-filename = 'facesall.jpg'
+filename = 'sideface9.jpg'
 # load image from file
 pixels = pyplot.imread(filename)
 # create the detector, using default weights
