@@ -21,14 +21,17 @@ def draw_image_with_boxes(filename, result_list):
         rect = Rectangle((x, y), width, height, fill=False, color='red')
         # draw the box
         ax.add_patch(rect)
+
+        '''
         # draw the dots
         for key, value in result['keypoints'].items():
             # create and draw dot
             dot = Circle(value, radius=2, color='red')
             ax.add_patch(dot)
+        '''
     pyplot.show()
 
-filename = 'sideface9.jpg'
+filename = 'Elton_John.jpg'
 # load image from file
 pixels = pyplot.imread(filename)
 # create the detector, using default weights

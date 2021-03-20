@@ -7,7 +7,7 @@ from cv2 import destroyAllWindows
 from cv2 import CascadeClassifier
 from cv2 import rectangle
 # load the photograph
-pixels = imread('sideface7.jpg')
+pixels = imread('sideface9.jpg')
 #pixels = imread('test2.jpg')
 # load the pre-trained model
 classifier = CascadeClassifier('haarcascade_frontalface_default.xml')
